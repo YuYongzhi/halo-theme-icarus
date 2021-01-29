@@ -76,11 +76,10 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+                <div style="width:75%;" class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
                     <#nested />
                 </div>
                 <@widget 'left' />
-                <@widget 'right' />
             </div>
         </div>
     </section>

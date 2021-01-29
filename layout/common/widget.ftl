@@ -4,11 +4,17 @@
         <#if settings.sidebar_profile!true>
             <#include "../widget/profile.ftl">
         </#if>
+        <#if settings.sidebar_recentpost!true>
+            <#include "../widget/recent_posts.ftl">
+        </#if>
         <#if settings.sidebar_categories!true>
             <#include "../widget/category.ftl">
         </#if>
-        <#if settings.sidebar_tagcloud!true>
-            <#include "../widget/tagcloud.ftl">
+        <#if settings.sidebar_tags!true>
+            <#include "../widget/tag.ftl">
+        </#if>
+        <#if settings.sidebar_recentcomment!true>
+            <#include "../widget/recent_comments.ftl">
         </#if>
         <#if settings.sidebar_links!true>
             <#include "../widget/links.ftl">
